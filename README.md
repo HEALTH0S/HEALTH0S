@@ -1,3 +1,12 @@
-# Health OS
+# Health OS API
 
-Render-ready backend for Health OS.
+Simple FastAPI backend for Health OS MVP.
+
+## Local Test
+```
+pip install -r requirements.txt
+uvicorn app.main:app --reload
+```
+
+## Render Deployment
+Render will auto-detect via render.yaml
